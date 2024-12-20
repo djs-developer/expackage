@@ -8,3 +8,4 @@ $baseDir = dirname($vendorDir);
 return array(
     'Djs\\Expackage\\' => array($baseDir . '/src'),
 );
+
