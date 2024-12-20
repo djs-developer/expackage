@@ -1,0 +1,17 @@
+{
+    "name": "djs/expackage",
+    "description": "this is example package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Djs\\Expackage\\": "src/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "Djs\\Expackage\\Installer::setup"
+        ]
+    },
+    "require": {}
+}
