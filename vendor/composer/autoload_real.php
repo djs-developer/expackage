@@ -34,4 +34,3 @@ class ComposerAutoloaderInitea227bd5e6f6c4f3b38c60bb68a3feab
         return $loader;
     }
 }
-

@@ -7,14 +7,14 @@ namespace Composer\Autoload;
 class ComposerStaticInitea227bd5e6f6c4f3b38c60bb68a3feab
 {
     public static $prefixLengthsPsr4 = array (
-        'D' => 
+        'd' => 
         array (
-            'Djs\\Expackage\\' => 14,
+            'djs\\expackage\\' => 14,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Djs\\Expackage\\' => 
+        'djs\\expackage\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -34,4 +34,3 @@ class ComposerStaticInitea227bd5e6f6c4f3b38c60bb68a3feab
         }, null, ClassLoader::class);
     }
 }
-

@@ -6,6 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Djs\\Expackage\\' => array($baseDir . '/src'),
+    'djs\\expackage\\' => array($baseDir . '/src'),
 );
-

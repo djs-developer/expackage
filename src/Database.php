@@ -1,6 +1,6 @@
 <?php
 
-namespace Djs\Expackage;
+namespace djs\expackage;
 
 use PDO;
 use PDOException;

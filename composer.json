@@ -1,18 +1,24 @@
 {
     "name": "djs/expackage",
     "description": "this is example package",
-    "type": "library",
+    "type": "composer-plugin",
     "license": "MIT",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
-            "Djs\\Expackage\\": "src/"
+            "djs\\expackage\\": "src/"
         }
+    },
+    "extra": {
+        "class": "djs\\expackage\\Plugin"
     },
     "scripts": {
         "post-install-cmd": [
-            "Djs\\Expackage\\Installer::setup"
+            "djs\\expackage\\Plugin::modifyComposerScripts"
         ]
     },
-    "require": {}
+    "require": {
+        "composer-plugin-api": "^2.0"
+    }
 }
 
